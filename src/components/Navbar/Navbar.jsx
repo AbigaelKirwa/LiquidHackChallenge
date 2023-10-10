@@ -42,13 +42,13 @@ function Navbar(){
             <div className="lower_nav">
                 <div className="lower_nav_left">
                     <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#categories">CATEGORIES</a></li>
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#blog">BLOG</a></li>
-                    <li><a href="#faqs">FAQS</a></li>
-                    <li><a href="#teach">TEACH ON APEX CPD</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#categories">CATEGORIES</a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#faqs">FAQS</a></li>
+                        <li><a href="#teach">TEACH ON APEX CPD</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
                 <div className="lower_nav_right">
