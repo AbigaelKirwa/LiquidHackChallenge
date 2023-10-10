@@ -140,3 +140,14 @@
     text-decoration: none; 
     padding-right: 10px;
 }
+.lower_nav .lower_nav_right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    padding-top: 1%;
+}
+.lower_nav .lower_nav_right img{
+    margin-right: 40px;
+    width: 31px;
+    height: 31px;
+}
