@@ -1,3 +1,4 @@
+import Card from "../Card/Card";
 import "./MainContent.css"
 function MainContent(){
     return(
@@ -15,6 +16,16 @@ function MainContent(){
                     <li><a href="#public">Public Relations</a></li>
                     <li><a href="#more">More</a></li>
                 </ul>
+            </div>
+            <div className="overall_card_components">
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
             </div>
         </div>
     )
