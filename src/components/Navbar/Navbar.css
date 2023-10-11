@@ -26,7 +26,6 @@
 .middle_nav{
     display: flex;
     flex-direction: row;
-    padding-top: 23px;
 }
 .middle_nav .logo img{
     margin-top: 23px;
@@ -117,11 +116,10 @@
 }
 .lower_nav{
     margin-top: 20px;
-    left: -13px;
-    width: 1392px;
+    width: 1402px;
     height: 56px;
     /* UI Properties */
-    background: #58595B 0% 0% no-repeat padding-box;
+    background: #58595B;
     display: flex;
 }
 .lower_nav .lower_nav_left ul{

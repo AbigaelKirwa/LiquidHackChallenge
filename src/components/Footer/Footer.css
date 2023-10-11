@@ -6,7 +6,7 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 #footer_overall .footer_name h1{
     font: normal normal 600 38px/24px Segoe UI;
