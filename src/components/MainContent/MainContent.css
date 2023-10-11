@@ -1,6 +1,5 @@
 #overall_content{
-    padding-left: 12%;
-    padding-right: 10%;
+    padding-left: 10%;
     margin-top: 30px;
 }
 #overall_content h1{
@@ -28,6 +27,49 @@
     margin-top: 5%;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     row-gap: 30px;
+}
+@media only screen and (max-width: 1300px) {
+    #overall_content{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #overall_content ul{
+        margin-left: 4%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #overall_content{
+        padding-left: 7%;
+        padding-right: 3%;
+    }
+}
+@media only screen and (max-width: 1156px) {
+    #overall_content{
+        padding-left: 6%;
+    }
+    .overall_card_components{
+        grid-template-columns: auto auto auto;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 918px) {
+    #overall_content .content_tags ul{
+        display: none;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .overall_card_components{
+        grid-template-columns: auto auto;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 666px) {
+    .overall_card_components{
+        grid-template-columns: auto;
+        gap: 3%;
+    }
 }
